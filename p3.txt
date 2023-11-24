@@ -1,0 +1,13 @@
+int n;
+int x;
+int sum = 0;
+
+citeste ( n );
+
+cat_timp ( n > 0 ) {
+	citeste ( x );
+	sum = sum + x;
+	n = n - 1;
+}
+
+scrie ( sum );

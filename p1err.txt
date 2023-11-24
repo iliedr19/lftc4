@@ -1,0 +1,22 @@
+int a = +2;
+int b;
+int c;
+int max;
+~
+citeste ( a );
+citeste ( b );
+citeste ( c );
+
+daca (a > b) {
+	max = a;
+}
+altfel {
+	max = b;
+}
+
+daca (c > max) {
+	max = c;
+}
+`
+scrie ( 'a' );
+scrie ( max );
